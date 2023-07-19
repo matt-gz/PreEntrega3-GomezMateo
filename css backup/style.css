@@ -259,11 +259,7 @@ a {
     padding: 20px;
     border-radius: 50px;
     box-shadow: #000 1px 1px 50px;
-    position: relative;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: -50px;
+
 }
 
 /*----------SPONSORS------------*/
