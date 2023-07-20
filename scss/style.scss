@@ -257,29 +257,23 @@ a {
 }
 
 /*----------sliders: SobreNosotros & Sponsors------------*/
-.slider_propio_sobreNosotros
-{
-    width: 50vh;
-    height: auto;
-    margin: auto;
-    overflow: hidden;
-}
+
 .slider_propio {
     width: 75vw;
     height: auto;
     margin: auto;
     overflow: hidden;
 }
-.slider_propio .slide-track_propio, .slider_propio_sobreNosotros .slide-track_propio_sobreNosotros{
+.slider_propio .slide-track_propio{
     display: flex;
     animation: scroll 40s linear infinite;
     -webkit-animation: scroll 40s linear infinite;
     width: calc(200px * 14);
 }
-.slider_propio .slide_propio, .slider_propio_sobreNosotros .slide_propio_sobreNosotros {
+.slider_propio .slide_propio {
     width: 200px;
 }
-.slider_propio .slide_propio img, .slider_propio_sobreNosotros .slide_propio_sobreNosotros img {
+.slider_propio .slide_propio img{
     max-width: 100px;
     height: 35px;
     margin: 15px;
