@@ -257,22 +257,22 @@ a {
 }
 
 /*----------SPONSORS------------*/
-.slider {
+.slider_propio{
     width: 75vw;
     height: auto;
     margin: auto;
     overflow: hidden;
 }
-.slider .slide-track {
+.slider_propio .slide-track_propio {
     display: flex;
     animation: scroll 40s linear infinite;
     -webkit-animation: scroll 40s linear infinite;
     width: calc(200px * 14);
 }
-.slider .slide {
+.slider_propio .slide_propio {
     width: 200px;
 }
-.slider .slide img {
+.slider_propio .slide_propio img {
     max-width: 100px;
     height: 35px;
     margin: 15px;
