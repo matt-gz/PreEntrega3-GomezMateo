@@ -239,31 +239,21 @@ a {
 
 
 /*---------SOBRE NOSOTROS---------*/
-.section_sobre_nosotros {
+.section_sobre_nosotros {   
     width: 100%;
     height: 100vh;
     background-image: url(../images/banner-fondo-azul-perfecto-canva_1361-3591.jpg);
     background-size: cover;
     background-position: 50% 0x;
-
+    h2 {
+        padding-top: 100px;
+    }  
 }
-
-.section_sobre_nosotros h2 {
-    padding-top: 100px;
-}
-
-.div_general_presentacion {
+.div_p_presentacion {
     background-image: url(../images/textura-papel-arrugado-blanco_53876-95917.avif);
     height: 600px;
     width: 700px;
-    padding: 20px;
-    border-radius: 50px;
-    box-shadow: #000 1px 1px 50px;
-    position: relative;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: -50px;
+    text-align: center;
 }
 
 /*----------SPONSORS------------*/
