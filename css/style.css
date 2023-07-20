@@ -219,21 +219,35 @@ a {
 
 /*---------SOBRE NOSOTROS---------*/
 .section_sobre_nosotros {
-  width: 100%;
+  display: flex;
+  align-items: center;
   height: 100vh;
-  background-image: url(../images/banner-fondo-azul-perfecto-canva_1361-3591.jpg);
-  background-size: cover;
-  background-position: 50% 0x;
 }
-.section_sobre_nosotros h2 {
-  padding-top: 100px;
+
+.sobre_nosotros_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .div_p_presentacion {
-  background-image: url(../images/textura-papel-arrugado-blanco_53876-95917.avif);
-  height: 600px;
-  width: 700px;
-  text-align: center;
+  flex: 1;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: #000 1px 1px 50px;
+}
+
+.carousel_container {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.carousel-inner .carousel-item .carousel-img {
+  width: 100%; /* Ajustamos el ancho de la imagen para ocupar todo el espacio disponible */
+  height: 75vh; /* Establecemos una altura fija para las imágenes */
+  object-fit: cover; /* La imagen se ajustará automáticamente manteniendo su relación de aspecto */
 }
 
 /*----------sliders: SobreNosotros & Sponsors------------*/
