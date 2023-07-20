@@ -236,7 +236,14 @@ a {
   text-align: center;
 }
 
-/*----------SPONSORS------------*/
+/*----------sliders: SobreNosotros & Sponsors------------*/
+.slider_propio_sobreNosotros {
+  width: 50vh;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
 .slider_propio {
   width: 75vw;
   height: auto;
@@ -244,18 +251,18 @@ a {
   overflow: hidden;
 }
 
-.slider_propio .slide-track_propio {
+.slider_propio .slide-track_propio, .slider_propio_sobreNosotros .slide-track_propio_sobreNosotros {
   display: flex;
   animation: scroll 40s linear infinite;
   -webkit-animation: scroll 40s linear infinite;
   width: 2800px;
 }
 
-.slider_propio .slide_propio {
+.slider_propio .slide_propio, .slider_propio_sobreNosotros .slide_propio_sobreNosotros {
   width: 200px;
 }
 
-.slider_propio .slide_propio img {
+.slider_propio .slide_propio img, .slider_propio_sobreNosotros .slide_propio_sobreNosotros img {
   max-width: 100px;
   height: 35px;
   margin: 15px;
