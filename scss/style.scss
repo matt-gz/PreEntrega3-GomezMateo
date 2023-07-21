@@ -316,6 +316,7 @@ a {
 
 
 /*--------DIRECCION----------*/
+
 .section_direction {
     background-image: url(../images/banner-fondo-azul-perfecto-canva_1361-3591.jpg);
     background-size: cover;
@@ -325,7 +326,6 @@ a {
     justify-content: center;
     align-items: center;
     height: 100vh;
-
     .container {
         width: 100%;
         max-width: 1200px;
@@ -343,7 +343,7 @@ a {
             .text_container {
                 flex: 1;
             }
-
+            
             .map_wrapper,
             .text_wrapper {
                 padding: 20px;
@@ -537,7 +537,6 @@ footer {
         flex-direction: column;
         text-align: center;
     }
-
     .map_container,
     .text_container {
         width: 100%;
