@@ -93,11 +93,13 @@ h2 {
     width: 50px;
     border-radius: 50%;
 }
+
 .show {
     background-image: url(../images/fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra_1258-54053.jpg);
     background-size: cover;
     margin-top: 16px;
 }
+
 .show ul {
     align-items: center;
 }
@@ -244,33 +246,35 @@ a {
     display: flex;
     align-items: center;
     height: 100vh;
-  }
-  
-  .sobre_nosotros_container {
+}
+
+.sobre_nosotros_container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-  }
-   
-  .div_p_presentacion {
+}
+
+.div_p_presentacion {
+    background-image: url(../images/textura-papel-arrugado-blanco_53876-95917.avif);
     flex: 1;
     padding: 50px;
-    margin: 20px;
     border-radius: 10px;
     box-shadow: #000 1px 1px 50px;
     overflow: hidden;
-  } 
-  .carousel_container {
+    margin: 30px;
+}
+
+.carousel_container {
     flex: 1;
     margin-right: 50px;
-  }
+}
 
-  .carousel-inner .carousel-item .carousel-img {
-    width: 100%; /* Ajustamos el ancho de la imagen para ocupar todo el espacio disponible */
-    height: 75vh; /* Establecemos una altura fija para las imágenes */
-    object-fit: cover; /* La imagen se ajustará automáticamente manteniendo su relación de aspecto */
-  }
+.carousel-inner .carousel-item .carousel-img {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+}
 
 /*----------Sponsors------------*/
 
@@ -280,30 +284,36 @@ a {
     margin: auto;
     overflow: hidden;
 }
-.slider_propio .slide-track_propio{
+
+.slider_propio .slide-track_propio {
     display: flex;
     animation: scroll 40s linear infinite;
     -webkit-animation: scroll 40s linear infinite;
     width: calc(200px * 14);
 }
+
 .slider_propio .slide_propio {
     width: 200px;
 }
-.slider_propio .slide_propio img{
+
+.slider_propio .slide_propio img {
     max-width: 100px;
     height: 35px;
     margin: 15px;
 }
-@keyframes scroll{
-    0%{
+
+@keyframes scroll {
+    0% {
         -webkit-transform: translateX(0);
         transform: translateX(0);
     }
+
     100% {
         -webkit-transform: translateX(calc(-200px * 7));
         transform: translateX(calc(-200px * 7));
     }
 }
+
 /*--------DIRECCION----------*/
 .section_direction {
     background-image: url(../images/banner-fondo-azul-perfecto-canva_1361-3591.jpg);
@@ -314,45 +324,45 @@ a {
     justify-content: center;
     align-items: center;
     height: 100vh;
-  
+
     .container {
-      width: 100%;
-      max-width: 1200px;
-  
-      .direction_container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-  
-        .map_container {
-          flex: 1;
-        }
-  
-        .text_container {
-          flex: 1;
-        }
-  
-        .map_wrapper,
-        .text_wrapper {
-          padding: 20px;
-        }
-      }
-  
-      @media (max-width: 767px) {
+        width: 100%;
+        max-width: 1200px;
+
         .direction_container {
-          flex-direction: column;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            .map_container {
+                flex: 1;
+            }
+
+            .text_container {
+                flex: 1;
+            }
+
+            .map_wrapper,
+            .text_wrapper {
+                padding: 20px;
+            }
         }
-  
-        .map_container,
-        .text_container {
-          width: 100%;
+
+        @media (max-width: 767px) {
+            .direction_container {
+                flex-direction: column;
+            }
+
+            .map_container,
+            .text_container {
+                width: 100%;
+            }
         }
-      }
     }
-  }
-  
-  
+}
+
+
 /*---------CONTACTO----------*/
 .section_contacto {
     background-image: url(../images/fondo-abstracto-blanco_23-2148844575.jpg);
@@ -426,13 +436,18 @@ button[type="submit"]:hover {
 
 
 /*--------------PAGINA DE DEPORTES-------------*/
-
+.body__paginaDeportes {
+    background-image: url(../images/fondo-abstracto-blanco_23-2148844575.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .h1__paginaDeportes {
     text-align: center;
     font-size: 4em;
     padding-top: 150px;
     font-family: 'Rajdhani', sans-serif;
 }
+
 .card__paginaDeportes {
     transition: transform 0.3s ease;
 }
@@ -447,9 +462,9 @@ button[type="submit"]:hover {
     font-size: 2em;
     padding-top: 15px;
 }
+
 .container__paginaDeportes {
     height: 100%;
-    /* Ajusta la altura según tus necesidades */
     padding-top: 65px;
     margin-bottom: 65px;
 }
@@ -471,14 +486,11 @@ button[type="submit"]:hover {
 
 .a__paginaDeportes {
     color: black;
-    /* Cambia el color de los enlaces a tu preferencia */
     text-decoration: none;
-    /* Elimina el subrayado predeterminado de los enlaces */
 }
 
 .a__paginaDeportes:hover {
     color: #25a7ce;
-    /* Cambia el color de los enlaces al pasar el cursor sobre ellos */
 }
 
 
@@ -522,15 +534,15 @@ footer {
 
 @media screen and (max-width: 1100px) {
     .carousel_container {
-      display: none;
+        display: none;
     }
-  
+
     .div_p_presentacion {
         box-shadow: none;
         text-align: center;
-      margin-left: 0; 
-      height: 100vh;
-      align-items: center;
-      overflow:scroll
+        margin-left: 0;
+        height: 100vh;
+        align-items: center;
+        overflow: scroll
     }
-  }
+}
