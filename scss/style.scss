@@ -314,6 +314,7 @@ a {
     }
 }
 
+
 /*--------DIRECCION----------*/
 .section_direction {
     background-image: url(../images/banner-fondo-azul-perfecto-canva_1361-3591.jpg);
@@ -346,17 +347,6 @@ a {
             .map_wrapper,
             .text_wrapper {
                 padding: 20px;
-            }
-        }
-
-        @media (max-width: 767px) {
-            .direction_container {
-                flex-direction: column;
-            }
-
-            .map_container,
-            .text_container {
-                width: 100%;
             }
         }
     }
@@ -435,12 +425,7 @@ button[type="submit"]:hover {
 
 
 /*--------------PAGINA DE DEPORTES-------------*/
-/*.body__paginaDeportes {
-    background-image: url(../images/fondo-abstracto-blanco_23-2148844575.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-*/
+
 .h1__paginaDeportes {
     text-align: center;
     font-size: 4em;
@@ -531,7 +516,7 @@ footer {
 }
 
 /*-----------MEDIA QUERIES--------------*/
-
+/*media querie para el carrusel del index*/
 @media screen and (max-width: 1100px) {
     .carousel_container {
         display: none;
@@ -544,5 +529,17 @@ footer {
         height: 100vh;
         align-items: center;
         overflow: scroll
+    }
+}
+/*media querie para la section de direccion en el index*/
+@media (max-width: 767px) {
+    .direction_container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .map_container,
+    .text_container {
+        width: 100%;
     }
 }

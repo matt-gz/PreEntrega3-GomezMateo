@@ -3,11 +3,9 @@
     background-image: url("../../images/fondo-abstracto-blanco_23-2148844575.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  
-  
-  .bodyFondoComun {
+}
+
+
+.bodyFondoComun {
     @include fondoComun(); // Aplica el fondo común al cuerpo del documento
-  }
-  
-  
+}
