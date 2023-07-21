@@ -237,6 +237,7 @@ a {
   margin: 20px;
   border-radius: 10px;
   box-shadow: #000 1px 1px 50px;
+  overflow: hidden;
 }
 
 .carousel_container {
@@ -250,7 +251,7 @@ a {
   object-fit: cover; /* La imagen se ajustará automáticamente manteniendo su relación de aspecto */
 }
 
-/*----------sliders: SobreNosotros & Sponsors------------*/
+/*----------Sponsors------------*/
 .slider_propio {
   width: 75vw;
   height: auto;
@@ -483,5 +484,18 @@ footer {
 }
 
 /*-----------MEDIA QUERIES--------------*/
+@media screen and (max-width: 1100px) {
+  .carousel_container {
+    display: none; /* Ocultamos el carrusel */
+  }
+  .div_p_presentacion {
+    box-shadow: none;
+    text-align: center;
+    margin-left: 0; /* Quitamos el margen izquierdo para centrar el texto */
+    height: 100vh;
+    align-items: center;
+    overflow: scroll;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
