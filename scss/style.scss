@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+@import "partials/mixins";
 
 * {
     box-sizing: border-box;
@@ -365,7 +365,6 @@ a {
 
 /*---------CONTACTO----------*/
 .section_contacto {
-    background-image: url(../images/fondo-abstracto-blanco_23-2148844575.jpg);
     height: 100vh;
     padding: 50px 0;
     background-size: cover;
@@ -436,11 +435,12 @@ button[type="submit"]:hover {
 
 
 /*--------------PAGINA DE DEPORTES-------------*/
-.body__paginaDeportes {
+/*.body__paginaDeportes {
     background-image: url(../images/fondo-abstracto-blanco_23-2148844575.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+*/
 .h1__paginaDeportes {
     text-align: center;
     font-size: 4em;
