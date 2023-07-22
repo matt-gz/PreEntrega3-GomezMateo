@@ -1,0 +1,22 @@
+// Definimos el mixin font-sizes
+@mixin font-sizes($sizes) {
+    @each $size, $value in $sizes {
+      .font-#{$size} {
+        font-size: $value;
+        text-align: center;
+        padding-top: 150px;
+        font-family: 'Rajdhani', sans-serif;
+      }
+    }
+  }
+  
+  // Creamos un mapa con los tamaños de fuente deseados (en vh)
+  $sizes: (
+    small: 3vh,
+    medium: 6vh,
+    large: 10vh
+  );
+  
+  // Llamamos al mixin para generar las clases de tamaños de fuente
+  @include font-sizes($sizes);
+  

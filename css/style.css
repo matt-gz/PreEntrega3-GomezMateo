@@ -8,6 +8,27 @@
 }
 
 /*---------*/
+.font-small {
+  font-size: 3vh;
+  text-align: center;
+  padding-top: 150px;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.font-medium {
+  font-size: 6vh;
+  text-align: center;
+  padding-top: 150px;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.font-large {
+  font-size: 10vh;
+  text-align: center;
+  padding-top: 150px;
+  font-family: "Rajdhani", sans-serif;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -388,13 +409,6 @@ a {
 }
 
 /*--------------PAGINA DE DEPORTES-------------*/
-.h1__paginaDeportes {
-  text-align: center;
-  font-size: 6vh;
-  padding-top: 150px;
-  font-family: "Rajdhani", sans-serif;
-}
-
 .card__paginaDeportes {
   transition: transform 0.3s ease;
 }
@@ -436,13 +450,6 @@ a {
 
 .a__paginaDeportes:hover {
   color: #25a7ce;
-}
-
-.h1__paginaEntrenadores {
-  text-align: center;
-  font-size: 6vh;
-  padding-top: 150px;
-  font-family: "Rajdhani", sans-serif;
 }
 
 /*-------PAGINA ASOCIATE-------*/

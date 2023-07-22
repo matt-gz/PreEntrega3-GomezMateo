@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import "partials/mixins";
-
+@import "partials/sizes";
 * {
     box-sizing: border-box;
     margin: 0;
@@ -419,12 +419,11 @@ a {
 
 /*--------------PAGINA DE DEPORTES-------------*/
 
-.h1__paginaDeportes {
-    text-align: center;
-    font-size: 6vh;
-    padding-top: 150px;
-    font-family: 'Rajdhani', sans-serif;
-}
+// .h1__paginaDeportes {
+//     text-align: center;
+//     padding-top: 150px;
+//     font-family: 'Rajdhani', sans-serif;
+// }
 
 .card__paginaDeportes {
     transition: transform 0.3s ease;
@@ -469,13 +468,6 @@ a {
 
 .a__paginaDeportes:hover {
     color: #25a7ce;
-}
-
-.h1__paginaEntrenadores {
-    text-align: center;
-    font-size: 6vh;
-    padding-top: 150px;
-    font-family: 'Rajdhani', sans-serif;
 }
 
 /*-------PAGINA ASOCIATE-------*/
