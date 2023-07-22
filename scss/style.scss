@@ -354,7 +354,7 @@ a {
 
 
 /*---------PAGINA CONTACTO----------*/
-.section_contacto {
+.section_contacto{
     height: 100vh;
     padding: 50px 0;
     background-size: cover;
@@ -486,10 +486,11 @@ a {
 }
 
 /*-------PAGINA ASOCIATE-------*/
+
 /* Estilos generales del formulario */
-.formulario {
+.section_paginaAsociate {
     max-width: 400px;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -512,7 +513,7 @@ a {
         border: 1px solid #ccc;
         border-radius: 5px;
         outline: none;
-  
+
         &:focus {
           border-color: #0066cc;
         }
@@ -534,7 +535,6 @@ a {
     }
   }
   
-
 /*--------------FOOTER-------------*/
 footer {
     color: rgb(246, 241, 241);

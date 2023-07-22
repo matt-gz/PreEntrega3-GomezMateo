@@ -447,36 +447,36 @@ a {
 
 /*-------PAGINA ASOCIATE-------*/
 /* Estilos generales del formulario */
-.formulario {
+.section_paginaAsociate {
   max-width: 400px;
-  margin: 0 auto;
+  margin: 50px auto;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   font-family: "Arial", sans-serif;
 }
-.formulario .campo {
+.section_paginaAsociate .campo {
   margin-bottom: 20px;
 }
-.formulario .campo label {
+.section_paginaAsociate .campo label {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
 }
-.formulario .campo input,
-.formulario .campo select {
+.section_paginaAsociate .campo input,
+.section_paginaAsociate .campo select {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   outline: none;
 }
-.formulario .campo input:focus,
-.formulario .campo select:focus {
+.section_paginaAsociate .campo input:focus,
+.section_paginaAsociate .campo select:focus {
   border-color: #0066cc;
 }
-.formulario button[type=submit] {
+.section_paginaAsociate button[type=submit] {
   background-color: #0066cc;
   color: #fff;
   border: none;
@@ -485,7 +485,7 @@ a {
   cursor: pointer;
   transition: background-color 0.3s;
 }
-.formulario button[type=submit]:hover {
+.section_paginaAsociate button[type=submit]:hover {
   background-color: #0052a3;
 }
 
