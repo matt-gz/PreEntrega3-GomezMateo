@@ -353,76 +353,76 @@ a {
 }
 
 
-/*---------CONTACTO----------*/
+/*---------PAGINA CONTACTO----------*/
 .section_contacto {
     height: 100vh;
     padding: 50px 0;
     background-size: cover;
-}
-
-.contacto_container {
+  }
+  
+  .contacto_container {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-}
-
-.contacto_container h2 {
-    font-size: 2em;
-    margin-bottom: 2px;
-}
-
-.contacto_container h6 {
-    font-size: 15px;
-    margin-bottom: 25px;
-}
-
-.contacto_form {
+  
+    h2 {
+      font-size: 2em;
+      margin-bottom: 2px;
+    }
+  
+    h6 {
+      font-size: 15px;
+      margin-bottom: 25px;
+    }
+  }
+  
+  .contacto_form {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.form_group {
-    margin-bottom: 20px;
-    text-align: left;
-    width: 100%;
-    max-width: 400px;
-}
-
-.form_group label {
-    font-weight: bold;
-    margin-bottom: 5px;
-    display: block;
-}
-
-.form_group input,
-.form_group textarea {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-.form_group textarea {
-    resize: vertical;
-    min-height: 100px;
-}
-
-button[type="submit"] {
-    padding: 10px 20px;
-    font-size: 1em;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button[type="submit"]:hover {
-    background-color: #0056b3;
-}
-
+  
+    .form_group {
+      margin-bottom: 20px;
+      text-align: left;
+      width: 100%;
+      max-width: 400px;
+  
+      label {
+        font-weight: bold;
+        margin-bottom: 5px;
+        display: block;
+      }
+  
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+  
+      textarea {
+        resize: vertical;
+        min-height: 100px;
+      }
+    }
+  
+    button[type="submit"] {
+      padding: 10px 20px;
+      font-size: 1em;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+  
 
 /*--------------PAGINA DE DEPORTES-------------*/
 
@@ -485,7 +485,7 @@ button[type="submit"]:hover {
     font-family: 'Rajdhani', sans-serif;
 }
 
-/*-------PAGINA CONTACTO-------*/
+/*-------PAGINA ASOCIATE-------*/
 /* Estilos generales del formulario */
 .formulario {
     max-width: 400px;
