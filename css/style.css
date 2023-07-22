@@ -453,6 +453,50 @@ button[type=submit]:hover {
   font-family: "Rajdhani", sans-serif;
 }
 
+/*-------PAGINA CONTACTO-------*/
+/* Estilos generales del formulario */
+.formulario {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+}
+.formulario .campo {
+  margin-bottom: 20px;
+}
+.formulario .campo label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.formulario .campo input,
+.formulario .campo select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+.formulario .campo input:focus,
+.formulario .campo select:focus {
+  border-color: #0066cc;
+}
+.formulario button[type=submit] {
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.formulario button[type=submit]:hover {
+  background-color: #0052a3;
+}
+
 /*--------------FOOTER-------------*/
 footer {
   color: rgb(246, 241, 241);
