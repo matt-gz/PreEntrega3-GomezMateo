@@ -9,4 +9,22 @@
 .bodyFondoComun {
     @include fondoComun(); // Aplica el fondo común al cuerpo del documento
 }
+
 /*---------*/
+.colores-botones {
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .boton-azul {
+    @extend .colores-botones;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .boton-gris {
+    @extend .colores-botones;
+    background-color: #6c757d;
+    color: #fff;
+  }
+  

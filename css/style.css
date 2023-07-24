@@ -8,6 +8,21 @@
 }
 
 /*---------*/
+.colores-botones, .boton-gris, .boton-azul {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.boton-azul {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.boton-gris {
+  background-color: #6c757d;
+  color: #fff;
+}
+
 .font-small {
   font-size: 3vh;
   text-align: center;
